@@ -1,0 +1,26 @@
+.loading {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.spinner {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: conic-gradient(black 5%, var(--color-light--2));
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    #ba2b2b00 calc(100% - 8px),
+    #000 0
+  );
+  animation: rotate 2.5s infinite linear;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}

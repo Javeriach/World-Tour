@@ -1,0 +1,41 @@
+.mapDiv {
+  width: 50vw;
+  height: 100vh;
+  position: relative;
+}
+
+.MapContainer {
+  height: 100vh !important;
+}
+
+:global(.leaflet-popup-content-wrapper) {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border-left: solid green 7px;
+  padding: 2px;
+}
+
+:global(.leaflet-popup-content) {
+  display: flex;
+}
+
+:global(.leaflet-popup-tip) {
+  background-color: black;
+}
+
+@media (max-width: 900px) {
+  .mapDiv {
+    width: 100vw !important;
+    height: 500px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .MapContainer {
+    margin-top: 100px;
+    height: 400px !important;
+    width: 90vw !important;
+  }
+}

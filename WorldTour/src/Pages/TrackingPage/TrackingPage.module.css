@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  color: white;
+  /* overflow: hidden; */
+}
+.trackingPage {
+  display: flex;
+  height: 100vh !important;
+  overflow: auto;
+}
+
+.Navbarr {
+  background-color: black;
+  height: 70px;
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .trackingPage {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around !important;
+    overflow: auto;
+    height: 92vh !important;
+    padding-bottom: 10px;
+  }
+
+  .Navbarr {
+    background-color: black;
+    height: 70px;
+    display: block;
+  }
+}

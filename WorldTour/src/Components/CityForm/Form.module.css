@@ -1,0 +1,65 @@
+.form {
+  width: 400px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  height: 335px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
+}
+
+.date_div input {
+  width: 360px;
+  height: 40px;
+  border: none;
+  padding: 5px;
+  border-radius: 0px !important;
+}
+
+.cityNameInput {
+  width: 330px;
+  height: 40px;
+  border: none;
+  padding: 5px;
+  border-radius: 0px !important;
+}
+.emoji_div {
+  background-color: white;
+  height: 40px;
+  width: 35px;
+  display: block;
+}
+.emoji {
+  display: block;
+  font-size: 1.3rem;
+}
+.form textarea {
+  width: 360px;
+  height: 60px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 410px) {
+  .form {
+    width: 300px;
+    position: relative;
+    left: auto;
+  }
+
+  .date_div input {
+    width: 263px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+  }
+  .textarea {
+    width: 100% !important;
+  }
+}

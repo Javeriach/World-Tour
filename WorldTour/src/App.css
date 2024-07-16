@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css';
+@import 'https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap';
+
+:root {
+  --color-brand--1: #ffb545;
+  --color-brand--2: blue;
+  --color-dark--0: #232c29;
+  --color-dark--1: blue;
+  --color-dark--2: white;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: #d6dee0;
+}
+
+body {
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+  background-color: white !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}

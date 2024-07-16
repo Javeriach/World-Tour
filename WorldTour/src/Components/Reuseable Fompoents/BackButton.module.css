@@ -1,0 +1,15 @@
+.BackButton {
+  border: white solid 2px;
+  font-size: 1.2rem;
+  width: 85px;
+  height: 37px;
+  border-radius: 3px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.BackButton:hover {
+  background-color: rgb(223, 236, 250);
+  color: black;
+}

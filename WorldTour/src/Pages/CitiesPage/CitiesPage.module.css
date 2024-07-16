@@ -1,0 +1,18 @@
+.CitiesPage {
+  width: 400px;
+  height: 320px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  overflow-x: hidden;
+
+}
+
+
+@media (max-width:450px) {
+  .CitiesPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

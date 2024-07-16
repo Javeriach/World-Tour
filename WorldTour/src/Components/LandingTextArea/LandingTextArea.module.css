@@ -1,0 +1,41 @@
+.startTrackingBtn {
+  background-color: var(--color-brand--2);
+  font-weight: 400;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+}
+.text_section {
+  /* width: 300px; */
+  justify-content: center;
+  position: relative;
+  z-index: -1000 !important;
+}
+.startTrackingLink {
+  text-decoration: none;
+  color: white;
+}
+.landingPageHeading {
+  font-size: 2.5em;
+}
+.paraText {
+  font-size: 1.2rem;
+  padding: 0px 40px !important;
+  text-align: justify;
+  width: 80% !important;
+}
+@media (max-width: 700px) {
+  .landingPageHeading {
+    font-size: 1.5rem;
+    padding: 0px 5px;
+  }
+  .paraText {
+    padding: 0px 10px !important;
+    font-size: 1rem;
+    width: 90%;
+  }
+  .landingPage {
+    padding-top: 100px;
+  }
+}

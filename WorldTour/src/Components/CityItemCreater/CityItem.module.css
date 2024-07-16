@@ -1,0 +1,63 @@
+.singleCityItem {
+  background-color: rgb(20, 20, 25);
+  padding: 14px;
+  margin-top: 0px;
+  border-left: 7px solid var(--color-brand--2);
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  border-left: solid 7px blue;
+  height: 60px;
+}
+
+.City_dataDiv {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 1rem;
+}
+
+.dateDelte_div {
+  /* width: 180px; */
+  display: flex;
+  justify-content: space-between;
+}
+.deleleIcon {
+  color: rgb(251, 249, 249);
+  display: inline-block;
+  background-color: rgb(20, 20, 25);
+  border-radius: 70px;
+  cursor: pointer;
+  padding: 0px 10px;
+}
+
+.deleleIcon:hover {
+  background-color: rgb(245, 85, 85);
+}
+
+.city_active {
+  border: white solid 0.3px;
+  border-left: solid 7px blue;
+}
+
+@media (max-width: 450px) {
+  .singleCityItem {
+    width: 320px;
+  }
+}
+
+@media (max-width: 380px) {
+  .singleCityItem {
+    width: 300px;
+    font-size: 0.8rem;
+  }
+
+  .heading {
+    font-size: 0.8rem;
+  }
+}

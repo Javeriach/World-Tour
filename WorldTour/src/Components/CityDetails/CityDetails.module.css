@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.cityDetails {
+  background-color: rgb(20, 20, 25);
+  padding: 20px;
+  border-radius: 10px;
+  height: 330px;
+  overflow-y: auto;
+  scrollbar-color: black;
+  scrollbar-width: thin;
+  margin-bottom: 20px;
+}
+
+.specialFont {
+  font-size: 12px;
+  color: gray;
+}
+
+.cityName {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.wikePediaURL {
+  color: rgb(255, 255, 7);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.text {
+  font-size: 1rem;
+  width: 360px;
+  overflow-wrap: break-word;
+  text-align: justify;
+}
+.loading {
+  position: relative;
+  top: 45%;
+}
+
+@media (max-width: 420px) {
+  .cityDetails {
+    background-color: var(--color-dark--1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px !important;
+    min-height: 400px;
+    max-height: fit-content;
+  }
+
+  .text {
+    width: 270px;
+  }
+}

@@ -1,0 +1,62 @@
+.Btn {
+  border: none;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+.submit {
+  background-color: var(--color-brand--2);
+}
+
+.Back {
+  background-color: var(--color-brand--1);
+}
+
+.Back:hover {
+  color: white;
+}
+
+.submit:hover {
+  color: white;
+}
+
+.useYourLocation {
+  background-color: rgb(34, 34, 182);
+  position: absolute;
+  z-index: 1000;
+  top: 80%;
+  z-index: 1000;
+  left: 40%;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.logout {
+  background-color: rgb(72, 72, 72);
+  color: white;
+  padding: 5px;
+  height: 30px;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  .useYourLocation {
+    background-color: var(--color-brand--2);
+    position: absolute;
+    z-index: 1000;
+    top: 80%;
+    z-index: 1000;
+    left: auto;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  .logout {
+    font-size: 0.9rem;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+.singleCountryItem {
+  background-color: rgb(20, 20, 25);
+  width: 400px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  border-left: solid 7px blue;
+  padding-left: 20px;
+  min-height: 60px !important;
+  max-height: fit-content;
+}
+
+@media (max-width: 450px) {
+  .singleCountryItem {
+    width: 300px;
+  }
+  .text {
+    font-size: 0.9rem !important;
+  }
+}

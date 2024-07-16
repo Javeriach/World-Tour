@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  height: 100vh !important;
+  padding: 0px !important;
+}
+
+.image {
+  width: 310px;
+  height: 310px;
+  background-color: 100%;
+  border-radius: 0px !important;
+}
+
+.textSection {
+  margin-left: 20px;
+  height: 310px !important;
+}
+
+.textSection h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.pricingText {
+  color: black !important;
+  font-weight: 500;
+  width: 300px !important;
+  text-align: justify;
+}
+
+.pricingText label {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.pricingText p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 690px) {
+  .textSection {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+}

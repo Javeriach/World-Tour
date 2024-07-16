@@ -1,0 +1,38 @@
+.logout_section {
+  background-color: var(--color-dark--0);
+  color: white;
+  position: absolute;
+  z-index: 1000;
+  border-radius: 8px;
+  width: 300px;
+  top: 2%;
+  left: 50%;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.User_greetings {
+  font-size: 1.1rem;
+}
+@media (max-width: 900px) {
+  .logout_section {
+    margin-top: 20px;
+    height: 50px !important;
+    bottom: 3%;
+    left: 30% !important;
+  }
+
+  /* .User_greetings {
+    font-size: 0.9rem !important;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+  } */
+}
