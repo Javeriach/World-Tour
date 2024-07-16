@@ -138,6 +138,19 @@
         "lng": 0.703125
       },
       "notes": "Southend on Sea is the most beautiful place I have seen..It is an amazing journney and the best place."
+    },
+    {
+      "id": "9730c33d-3fb9-4010-b520-d90e89b464c4",
+      "cityName": "Stichtse Vecht",
+      "country": "Netherlands (Kingdom of the)",
+      "countryCode": "NL",
+      "date": "2024-07-16T11:53:18.486Z",
+      "emoji": "🇳🇱",
+      "position": {
+        "lat": 52.14697334064471,
+        "lng": 5.053710937500001
+      },
+      "notes": "It is working well"
     }
   ]
 }

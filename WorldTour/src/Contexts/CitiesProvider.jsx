@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 const CitiesContext = createContext();
 
 function CitiesProvider({ children }) {
-  let base_url = 'http://localhost:8000';
+  let base_url = import.meta.env.VITE_PORT;
 
   let initialState = {
     citiesData: [],
