@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 const CitiesContext = createContext();
 
 function CitiesProvider({ children }) {
-  let base_url = import.meta.env.VITE_PORT;
+  let base_url = "https://world-tour-zeta.vercel.app";
 
   let initialState = {
     citiesData: [],
